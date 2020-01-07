@@ -5,4 +5,4 @@ def sum(arr):
         return arr[0] + sum(arr[1:])
 
 
-print(sum([2, 4, 6]))
+print(sum([2, 4, 6, 8, 10]))
