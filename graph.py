@@ -2,12 +2,12 @@ from collections import deque
 
 graph = {}
 graph["you"] = ["alice", "bob", "claire"]
-# graph["bob"] = ["anuj", "peggy"]
-# graph["alice"] = ["peggy"]
-# graph["anuj"] = []
-# graph["peggy"] = []
-# graph["thom"] = []
-# graph["jonny"] = []
+graph["bob"] = ["anuj", "peggy"]
+graph["alice"] = ["peggy"]
+graph["anuj"] = []
+graph["peggy"] = []
+graph["thom"] = []
+graph["jonny"] = []
 
 
 def BFS(name):
