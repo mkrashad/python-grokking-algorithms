@@ -1,4 +1,6 @@
 voted = {}
+
+
 def check_voter(name):
     if voted.get(name):
         print("Kick them out!")
